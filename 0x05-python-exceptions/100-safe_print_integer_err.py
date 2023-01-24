@@ -12,4 +12,3 @@ def safe_print_integer_err(value):
     except TypeError as ve:
         sys.stderr.write("Exception: " + str(ve) + "\n")
         return False
-
