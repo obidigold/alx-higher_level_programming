@@ -15,7 +15,7 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """
-        
+
         Checks the parameters and initializes some values
 
         Args:
@@ -113,7 +113,7 @@ class Rectangle:
 
                         Args:
                         height (int): The height of the Rectangle.
-                        
+
                         Raises:
                         TypeError: If `height` type is not `int`.
                         ValueError: If `height` is less than `0`.
@@ -130,7 +130,7 @@ class Rectangle:
                             """
 
                             Checks if the value is an integer
-                            
+
                             Args:
                             value (int): The number to verify
 
